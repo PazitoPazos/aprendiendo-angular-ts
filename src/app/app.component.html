@@ -1,2 +1,54 @@
-<!-- <h1>Proyecto {{ title }}</h1> -->
-<app-user />
+<div>
+  <h1>¿Qué me parece Angular?</h1>
+  <article>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+      perferendis placeat, recusandae deserunt atque blanditiis explicabo,
+      dolorum totam doloremque asperiores, odit porro nihil numquam enim beatae
+      exercitationem sequi libero natus. Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Tempora quae quibusdam, modi consequuntur molestiae
+      corporis debitis inventore voluptatibus veniam temporibus. Porro optio
+      perspiciatis, nobis necessitatibus quaerat dolorum magni eos eveniet?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+      voluptatibus ex quibusdam dolorum dolorem perspiciatis numquam. Molestias
+      nobis recusandae, culpa, dicta repellat ipsam adipisci hic magni itaque
+      asperiores magnam deleniti.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+      doloribus recusandae et cum inventore eos mollitia asperiores
+      necessitatibus, repudiandae repellendus vitae nesciunt ullam fugit numquam
+      doloremque ut expedita aperiam beatae. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Ex, quasi repellat ab hic similique quod! Id
+      eos molestiae quia architecto officia, laboriosam odit vel quae,
+      perspiciatis, dicta quos quo commodi. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Autem quam eveniet, aliquid tempore ullam
+      distinctio rerum pariatur, ipsa maiores vero modi a quod, optio ducimus
+      aut laborum soluta magni? Autem. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Nam, tempore autem. Aliquid eius a ipsum quasi dolores
+      atque necessitatibus iste similique ea explicabo, non dolor sapiente
+      laudantium optio nostrum deleniti.
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+      perferendis placeat, recusandae deserunt atque blanditiis explicabo,
+      dolorum totam doloremque asperiores, odit porro nihil numquam enim beatae
+      exercitationem sequi libero natus. Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Tempora quae quibusdam, modi consequuntur molestiae
+      corporis debitis inventore voluptatibus veniam temporibus. Porro optio
+      perspiciatis, nobis necessitatibus quaerat dolorum magni eos eveniet?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+      voluptatibus ex quibusdam dolorum dolorem perspiciatis numquam. Molestias
+      nobis recusandae, culpa, dicta repellat ipsam adipisci hic magni itaque
+      asperiores magnam deleniti.
+    </p>
+  </article>
+
+  @defer (on viewport) {
+  <app-comments></app-comments>
+  } @placeholder {
+    <p>Futuros comentarios</p>
+  } @loading {
+    <p>Cargando comentarios...</p>
+  }
+</div>
